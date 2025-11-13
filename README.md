@@ -65,6 +65,9 @@ endmodule
 
 
 **Timing Diagram**
+<img width="2531" height="1355" alt="e21(1)1" src="https://github.com/user-attachments/assets/75a47b0e-517a-4820-aa1b-2055bc467445" />
+<img width="2560" height="1353" alt="p12" src="https://github.com/user-attachments/assets/b3960681-2205-49b4-8b98-36eec4ca0d55" />
+
 
 **Result:**
 
