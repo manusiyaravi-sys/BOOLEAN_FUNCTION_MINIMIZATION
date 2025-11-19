@@ -42,7 +42,7 @@ assign f1=((~b & ~d)|(~a & b & d)|(a & b & ~c));
 endmodule
 
 
-module p1(w,x,y,z,f2);
+module ex22(w,x,y,z,f2);
 input w,x,y,z;
 output f2;
 assign f2=((~y & z)|( w & y )|(x & y));
@@ -50,24 +50,19 @@ endmodule
 ```
 
 **RTL realization**
+<img width="2541" height="1342" alt="ex21 1" src="https://github.com/user-attachments/assets/96a5aa3f-161d-4c52-aad8-a7f93e229fc9" />
+<img width="2552" height="1409" alt="ex22 1" src="https://github.com/user-attachments/assets/5cb05239-6c52-46c7-9f66-b03d51ce83bd" />
 
-<img width="2552" height="1352" alt="ex21(1)" src="https://github.com/user-attachments/assets/df570f77-9d13-453e-8cb6-3047ee850730" />
-
-
-<img width="2558" height="1359" alt="p1" src="https://github.com/user-attachments/assets/17b3b77b-9068-4a70-8c2b-9f066738e11b" />
 
 
 **RTL**
-
-<img width="2531" height="1355" alt="e21(1)1" src="https://github.com/user-attachments/assets/a4d19390-99b0-434e-aa0e-68a27947a758" />
-
-<img width="2560" height="1353" alt="p12" src="https://github.com/user-attachments/assets/86d4033c-6f4a-4817-9a4a-4dd52cc32455" />
+<img width="2539" height="1276" alt="ex21 2" src="https://github.com/user-attachments/assets/8838b2ab-9ce0-4480-9895-73e13b016a68" />
+<img width="2550" height="1299" alt="ex22 2" src="https://github.com/user-attachments/assets/f2b8ac11-ae90-4427-b9e9-98b67c4dd59f" />
 
 
 **Timing Diagram**
-<img width="2531" height="1355" alt="e21(1)1" src="https://github.com/user-attachments/assets/75a47b0e-517a-4820-aa1b-2055bc467445" />
-<img width="2560" height="1353" alt="p12" src="https://github.com/user-attachments/assets/b3960681-2205-49b4-8b98-36eec4ca0d55" />
-
+<img width="2539" height="1276" alt="ex21 2" src="https://github.com/user-attachments/assets/deb6c370-1363-4f75-ae25-5c3e1042b9f6" />
+<img width="2550" height="1299" alt="ex22 2" src="https://github.com/user-attachments/assets/cd7cc7ac-ea95-425c-8884-1309e7d31ad2" />
 
 **Result:**
 
